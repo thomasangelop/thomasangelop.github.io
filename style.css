@@ -3,7 +3,7 @@ p {
 }
 
 #Resume {
-  display: flex;
+  display: relative;
   padding: 30px;
  
 }

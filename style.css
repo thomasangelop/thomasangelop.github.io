@@ -9,7 +9,8 @@ p {
 }
 
 #ContactInfo {
-  position-right: 10px; 
+  position-right: 20%;
+  position-left: 80%;
   padding-bottom: 5px;
 
 }

@@ -22,8 +22,8 @@ p {
 }
 
 #Photo {
- position: absolute;
+ float: right;
  top: 0px;
  right: 0px;
- visibility: hidden;
+ visibility: visible;
 }

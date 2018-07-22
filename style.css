@@ -22,5 +22,7 @@ p {
 }
 
 #Photo {
- right: 10%; 
+ position: absolute;
+ top: 0px;
+ right: 0px;
 }

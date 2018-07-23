@@ -3,9 +3,14 @@ p {
 }
 
 #Resume {
-  display: relative;
+  position: relative;
+  text-align: left;
   padding: 30px;
- 
+  margin-right: 100px;
+  margin-left: 100px; 
+  border-radius: 100px;
+  background-color: #c7eccf;
+
 }
 
 #ContactInfo {

@@ -7,7 +7,7 @@
 }
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *
 * ======================================================= */
 body {
@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #000;
   font-family: "Space Mono", Arial, serif;
   font-weight: 400;
-  margin: 0 0 20px 0;
+  margin: 15px 15px 20px 0;
 }
 
 ::-webkit-selection {
@@ -838,6 +838,12 @@ h1, h2, h3, h4, h5, h6, figure {
     height: 270px;
   }
 }
+@media (min-width: 992px){
+  .col-md-offset-1 {
+    margin-left: 8.33333%;
+    margin-right: 8.33333%;
+  }
+}
 .fh5co-blog .blog-text {
   margin-bottom: 30px;
   position: relative;
@@ -947,7 +953,7 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 #fh5co-consult .choose {
-  width: 50%;
+  width: 100%;
   padding: 4em;
 }
 @media screen and (max-width: 768px) {
@@ -1289,5 +1295,6 @@ input[type="text"] {
 .js .animate-box {
   opacity: 0;
 }
+
 
 /*# sourceMappingURL=style.css.map */

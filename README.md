@@ -1,1 +1,1 @@
-New Website Coming Soon.
+Personal website - thomasangelo.codes

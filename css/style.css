@@ -221,8 +221,8 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 30px;
 }
 
-#fh5co-features {
-  background: #07B9B1;
+#fh5co-features, #interestedContainer {
+  background-color: #07B9B1;
 }
 
 #fh5co-features h2 {
@@ -798,13 +798,15 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-started .fh5co-heading p {
   color: rgba(255, 255, 255, 0.8);
 }
-#fh5co-started .btn {
-  height: 54px;
-  border: none !important;
-  background: #fff;
-  color: #FF9000;
+
+/* Interested section */
+#fh5co-started, .btn {
+  /* height: 54px; */
+  /* border: none !important; */
+  background: #07B9B1;
+  color: #07B9B1;
   font-size: 16px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: 400;
   padding-left: 50px;
   padding-right: 50px;

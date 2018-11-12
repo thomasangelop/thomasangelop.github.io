@@ -987,15 +987,15 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-footer {
-  padding: 50px 0;
-  float: left;
-  width: 100%;
+  /* padding: 50px 0; */
+  /* float: left;
+  width: 100%; */
 }
 #fh5co-footer p:last-child {
   margin-bottom: 0;
 }
 
-.contact-info {
+/* .contact-info {
   margin-bottom: 4em;
   padding: 0;
 }
@@ -1015,7 +1015,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .contact-info li a {
   color: #000;
-}
+} */
 
 .form-control {
   -webkit-box-shadow: none;
@@ -1300,8 +1300,13 @@ input[type="text"] {
 }
 
 .footer{
-  background-color: #07B9B1;
-  color: white;
+  background-color: white;
+  color: #FF9000;
+  font-size: 16px;
+  /* text-transform: uppercase; */
+  font-weight: 400;
+  /* padding-left: 50px;
+  padding-right: 50px; */
 }
 
 

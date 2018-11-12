@@ -221,9 +221,10 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 30px;
 }
 
-#fh5co-features {
-  background: #07B9B1;
+#fh5co-features, #interestedContainer {
+  background-color: #07B9B1;
 }
+
 #fh5co-features h2 {
   color: #fff;
 }
@@ -746,7 +747,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .work .desc span {
   display: block;
-  color: #999999;
+  color: rgb(0, 0, 0);
   font-size: 14px;
   -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
   transition: transform 0.3s, opacity 0.3s;
@@ -797,13 +798,15 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-started .fh5co-heading p {
   color: rgba(255, 255, 255, 0.8);
 }
-#fh5co-started .btn {
-  height: 54px;
-  border: none !important;
-  background: #fff;
-  color: #FF9000;
+
+/* Interested section */
+#fh5co-started, .btn {
+  /* height: 54px; */
+  /* border: none !important; */
+  background: #07B9B1;
+  color: #07B9B1;
   font-size: 16px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: 400;
   padding-left: 50px;
   padding-right: 50px;
@@ -984,15 +987,15 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-footer {
-  padding: 50px 0;
-  float: left;
-  width: 100%;
+  /* padding: 50px 0; */
+  /* float: left;
+  width: 100%; */
 }
 #fh5co-footer p:last-child {
   margin-bottom: 0;
 }
 
-.contact-info {
+/* .contact-info {
   margin-bottom: 4em;
   padding: 0;
 }
@@ -1012,7 +1015,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .contact-info li a {
   color: #000;
-}
+} */
 
 .form-control {
   -webkit-box-shadow: none;
@@ -1297,8 +1300,13 @@ input[type="text"] {
 }
 
 .footer{
-  background-color: #07B9B1;
-  color: white;
+  background-color: white;
+  color: #FF9000;
+  font-size: 16px;
+  /* text-transform: uppercase; */
+  font-weight: 400;
+  /* padding-left: 50px;
+  padding-right: 50px; */
 }
 
 
